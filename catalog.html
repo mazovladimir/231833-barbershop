@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
@@ -7,6 +7,7 @@
   <body>
     <header class="main-header">
       <div class="container">
+        <img src="http://placehold.it/150x100" width="150" height="100" alt="main-pic">
         <nav class="main-navigation">
           <ul>
             <li>
@@ -33,7 +34,7 @@
     </header>
     <main class="container">
       <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
-      <div class="breadcrumbs">
+      <div class="breadcrumb">
         <ul>
           <li><a href="#">ГЛАВНАЯ</a></li>
           <li><a href="#">МАГАЗИН</a></li>
@@ -45,18 +46,24 @@
           <form>
             <fieldset>
               <legend>ПРОИЗВОДИТЕЛИ</legend>
-              <p><label><input type="checkbox" name="manufacturer" id="baxter" checked>BAXTER OF CALIFORNIA</label></p>
-              <p><label><input type="checkbox" name="manufacturer" id="natty">MR NATTY</label></p>
-              <p><label><input type="checkbox" name="manufacturer" id="suavecito" checked>SUAVECITO</label></p>
-              <p><label><input type="checkbox" name="manufacturer" id="malin_goetz">MALIN+GOETZ</label></p>
-              <p><label><input type="checkbox" name="manufacturer" id="murray">MURRAY'S</label></p>
-              <p><label><input type="checkbox" name="manufacturer" id="american_crew" checked>AMERICAN CREW</label></p>
+              <input type="checkbox" name="manufacturer" id="baxter" checked>
+              <label for="baxter">BAXTER OF CALIFORNIA</label>
+              <input type="checkbox" name="manufacturer" id="natty">
+              <label for="natty">MR NATTY</label>
+              <input type="checkbox" name="manufacturer" id="suavecito" checked>
+              <label for="suavecito">SUAVECITO</label>
+              <input type="checkbox" name="manufacturer" id="malin_goetz">
+              <label for="malin_goetz">MALIN+GOETZ</label>
+              <input type="checkbox" name="manufacturer" id="murray">
+              <label for="murray">MURRAY'S</label>
+              <input type="checkbox" name="manufacturer" id="american_crew" checked>
+              <label for="american_crew">AMERICAN CREW</label>
             </fieldset>
             <fieldset>
               <legend>ГРУППЫ ТОВАРОВ</legend>
-                <p><label><input type="radio" name="goods" value="item-one"> БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label></p>
-                <p><label><input type="radio" name="goods" value="item-two" checked> СРЕДСТВА ДЛЯ УХОДА</label></p>
-                <p><label><input type="radio" name="goods" value="item-three"> АКСЕССУАРЫ</label></p>
+                <input type="radio" name="goods" value="item-one"> БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ<br>
+                <input type="radio" name="goods" value="item-two" checked> СРЕДСТВА ДЛЯ УХОДА<br>
+                <input type="radio" name="goods" value="item-three"> АКСЕССУАРЫ
             </fieldset>
             <p><button class="show-item" type="button">Показать</button></p>
           </form>
@@ -66,48 +73,61 @@
             <figure>
               <img src="http://placehold.it/150x100" width="150" height="100" alt="pic1">
             </figure>
-            <h4>Набор для путешествий "BAXTER OF CALIFORNIA"</h4>
-            2900 руб
-            <button class="pic-one" type="button">КУПИТЬ</button>
+            <h2><a href="#"><span class="pic1-description">Набор для путешествий</span> <span class="pic1-name">"BAXTER OF CALIFORNIA"</span></a></h2>
+            <div class="buy">
+              <span class="price">2900 руб</span>
+              <button class="pic-one" type="button">КУПИТЬ</button>
+            </div>
+          </div>
           <div class="pic2">
             <figure>
               <img src="http://placehold.it/150x100" width="150" height="100" alt="pic2">
             </figure>
-            <h4>Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</h4>
-            750 руб 
-            <button class="pic-two" type="button">КУПИТЬ</button>
+            <h2><a href="#"><span class="pic2-description">Увлажняющий кондиционер</span> <span class="pic2-name">"BAXTER OF CALIFORNIA"</span></a></h2>
+            <div class="buy">
+              <span class="price">750 руб</span>
+              <button class="pic-two" type="button">КУПИТЬ</button>
+            </div>
           </div>
           <div class="pic3">
             <figure>
               <img src="http://placehold.it/150x100" width="150" height="100" alt="pic3">
             </figure>
-            <h4>Гель для волос "SUAVECITO"</h4>
-            290 руб 
-            <button class="pic-three" type="button">КУПИТЬ</button>
+            <h2><a href="#"><span class="pic3-description">Гель для волос</span> <span class="pic3-name">"SUAVECITO"</span></a></h2>
+            <div class="buy">
+              <span class="price">290 руб</span>
+              <button class="pic-three" type="button">КУПИТЬ</button>
+            </div>
           </div>
           <div class="pic4">
             <figure>
               <img src="http://placehold.it/150x100" width="150" height="100" alt="pic4">
             </figure>
-            <h4>Глина для укладки волос "AMERICAN CREW"</h4>
-            500 руб 
-            <button class="pic-four" type="button">КУПИТЬ</button>
+            <h2><a href="#"><span class="pic4-description">Глина для укладки волос</span> <span class="pic4-name">"AMERICAN CREW"</span></a></h2>
+            <div class="buy">
+              <span class="price">500 руб</span>
+              <button class="pic-four" type="button">КУПИТЬ</button>
+            </div>
           </div>
           <div class="pic5">
             <figure>
               <img src="http://placehold.it/150x100" width="150" height="100" alt="pic5">
             </figure>
-            <h4>Гель для волос "AMERICAN CREW"</h4>
-            300 руб 
-            <button class="pic-five" type="button">КУПИТЬ</button>
+            <h2><a href="#"><span class="pic5-description">Гель для волос</span> <span class="pic5-name">"AMERICAN CREW"</span></a></h2>
+            <div class="buy">
+              <span class="price">300 руб</span>
+              <button class="pic-five" type="button">КУПИТЬ</button>
+            </div>
           </div>
           <div class="pic6">
             <figure>
               <img src="http://placehold.it/150x100" width="150" height="100" alt="pic6">
             </figure>
-            <h4>Набор для бритья "BAXTER OF CALIFORNIA"</h4>
-            3900 руб 
-            <button class="pic-six" type="button">КУПИТЬ</button>
+            <h2><a href="#"><span class="pic6-description">Набор для бритья</span> <span class="pic6-name">"BAXTER OF CALIFORNIA"</span></a></h2>
+            <div class="buy">
+              <span class="price">3900 руб</span>
+              <button class="pic-six" type="button">КУПИТЬ</button>
+            </div>
           </div>
         </div>
         <div class="pagination">
@@ -119,31 +139,30 @@
           </ul>
         </div>
       </div>
-    </div>
   </main>
   <footer>
-    <div class="main-footer">
-      <div class="footer-container">
-        <div class="footer-contacts">
-          БАРБЕРШОП "БОРОДИНСКИЙ"<br>
-          АДРЕС:Г.САНКТ-ПЕТЕРБУРГ,УЛ.Б.КОНЮШЕННАЯ,Д.19/8<br>
-          КАК НАС НАЙТИ?<br>
-          <a href="#">ТЕЛЕФОН:+7(495)666-02-66</a>
-        </div>
-        <div class="footer-social">
-          ДАВАЙТЕ ДРУЖИТЬ!<br>
-          <ul>
-            <li><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="vkontakte"></a></li>
-            <li><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="facebook"></a></li>
-            <li><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="instagram"></a></li>
-          </ul>
-        </div>
-        <div class="footer-copyright">
-            РАЗРАБОТАНО:<br>
-            <a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="about"></a>
+      <div class="main-footer">
+        <div class="footer-container">
+          <div class="footer-contacts">
+            БАРБЕРШОП "БОРОДИНСКИЙ"<br>
+            АДРЕС:Г.САНКТ-ПЕТЕРБУРГ,УЛ.Б.КОНЮШЕННАЯ,Д.19/8<br>
+            КАК НАС НАЙТИ?<br>
+            ТЕЛЕФОН:<a href="tel:84956660266">+7(495)666-02-66</a>
+          </div>
+          <div class="footer-social">
+            ДАВАЙТЕ ДРУЖИТЬ!
+            <ul>
+              <li><a href="#"><span class="vkontakte">vkontakte</span></a></li>
+              <li><a href="#"><span class="facebook">facebook</span></a></li>
+              <li><a href="#"><span class="instagram">instagram</span></a></li>
+            </ul>
+          </div>
+          <div class="footer-copyright">
+              РАЗРАБОТАНО:
+              <a href="#"><span class="about">about</span></a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
   </body>
 </html>
