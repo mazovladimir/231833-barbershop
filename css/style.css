@@ -11,3 +11,112 @@ h1 {
   font-size: 30px;
   font-weight: bold;
 }
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;  
+}
+
+.main-header {
+  border: 2px solid red;
+}
+
+.main-header .container {
+  border: 2px solid green; 
+  width: 960px;
+  min-height: 70px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  border: 2px solid green;
+  padding: 0 auto;
+  float: left;
+}
+
+.main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.pagination {
+  border: 2px solid green;
+  margin-left: 250px;
+}
+
+.pagination li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.user-block {
+  float: right;
+}
+
+main.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  border: 2px solid blue;
+  width: 310px;
+  height: 110px;
+}
+
+.filter {
+  border: 2px solid yellow;
+  width: 230px;
+  
+  float: left;
+  line-height: 30px;
+}
+
+.gallery {
+  border: 2px solid red;    
+  width: 730px;
+  margin-left: 250px;
+}
+
+.gallery h2 {
+  font-size: 14px;  
+}
+
+.gallery .block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+.main-footer {
+  border: 2px solid red;
+  min-height: 190px;
+}
+
+.footer-container {
+  border: 2px solid blue;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.footer-contacts {
+  border: 2px solid green;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 90px;
+}
+
+.footer-social {
+  border: 2px solid green;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 260px;
+}
+
+.footer-copyright {
+  border: 2px solid green;
+  display: inline-block;
+  vertical-align: top;
+}
