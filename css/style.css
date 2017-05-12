@@ -15,108 +15,86 @@ h1 {
 .clearfix {
   content: "";
   clear: both;
-  display: table;  
+  display: table;
 }
 
-.main-header {
-  border: 2px solid red;
-}
-
-.main-header .container {
-  border: 2px solid green; 
-  width: 960px;
+div.container {
   min-height: 70px;
   margin: 0 auto;
+  width: 940px;
+  background-color: green;
 }
 
-.main-navigation {
-  border: 2px solid green;
-  padding: 0 auto;
+nav.main-navigation {
   float: left;
+  width: 780px;
 }
 
-.main-navigation li {
+nav.main-navigation li {
   display: inline-block;
   vertical-align: top;
 }
 
-.pagination {
-  border: 2px solid green;
-  margin-left: 250px;
-}
-
-.pagination li {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.user-block {
+div.user-block {
   float: right;
+  width: 140px;
 }
 
 main.container {
-  width: 960px;
+  width: 940px;
   margin: 0 auto;
 }
 
-.breadcrumb {
-  border: 2px solid blue;
-  width: 310px;
-  height: 110px;
-}
-
 .filter {
-  border: 2px solid yellow;
-  width: 230px;
-  
+  width: 220px;
+  min-height: 600px;
+  background-color: red;
   float: left;
-  line-height: 30px;
 }
 
 .gallery {
-  border: 2px solid red;    
-  width: 730px;
-  margin-left: 250px;
-}
-
-.gallery h2 {
-  font-size: 14px;  
+  width: 700px;
+  background-color: grey;
+  float: right;
+  min-height: 600px;
 }
 
 .gallery .block {
   display: inline-block;
   vertical-align: top;
+  width: 230px;
+  height: 290px;
+  background-color: yellow;
 }
 
-
-
-.main-footer {
-  border: 2px solid red;
-  min-height: 190px;
+.pagination li {
+  display: inline-block;
 }
 
 .footer-container {
-  border: 2px solid blue;
-  width: 980px;
+  width: 940px;
+  min-height: 190px;
+  background-color: green;
   margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .footer-contacts {
-  border: 2px solid green;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 90px;
+  width: 320px;
+  float: left;
+  background-color: red;
+  margin-right: 60px;
 }
 
 .footer-social {
-  border: 2px solid green;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 260px;
+  width: 180px;
+  float: left;
+  background-color: red;
 }
 
 .footer-copyright {
-  border: 2px solid green;
-  display: inline-block;
-  vertical-align: top;
+  width: 160px;
+  float: right;
+  background-color: red;
 }
