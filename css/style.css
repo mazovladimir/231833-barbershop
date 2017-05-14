@@ -25,8 +25,16 @@ h2 {
 .main-header {
   width: 1200px;
   min-height: 72px;
-  background-color: black;
+  outline: 3px solid green;
   margin: 0 auto;
+}
+
+.header-container {
+  width: 940px;
+  min-height: 72px;
+  outline: 3px solid red;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-navigation {
@@ -51,13 +59,30 @@ h2 {
 .main-container {
   width: 1200px;
   min-height: 913px;
-  background-color: blue;
-  margin: 0 auto;
+  outline: 3px solid green;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-center {
+  width: 940px;	
+  min-height: 914px;
+  outline: 3px solid blue;
+}
+
+.container-center h1 {
+  padding-top: 65px;
+}
+
+.breadcrumb li {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .container-center {
   width: 940px;
-  background-color: yellow;
+  min-height: 914px;
+  outline: 3px solid red;
   margin-left: auto;
   margin-right: auto;
 }
@@ -65,14 +90,14 @@ h2 {
 .filter {
   width: 220px;
   min-height: 580px;
-  background-color: red;
+  outline: 1px solid black;
   float: left;
 }
 
 .gallery {
   width: 700px;
   min-height: 600px;
-  background-color: red;
+  outline: 1px solid black;
   float: right;
 }
 
@@ -81,13 +106,13 @@ h2 {
   vertical-align: top;
   width: 220px;
   min-height: 290px;
-  background-color: grey;
+  outline: 1px solid black;
 }
 
 .pagination {
   clear: both;
   width: 300px;
-  background-color: red;
+  outline: 3px solid blue;
 }
 
 .pagination li {
@@ -99,33 +124,33 @@ h2 {
 .main-footer {
   width: 1200px;
   height: 189px;
-  background-color: black;
+  outline: 3px solid green;
   margin: 0 auto;
+  padding-top: 65px;
 }
 
 .footer-container {
   width: 940px;
-  background-color: blue;
+  outline: 3px solid red;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 65px;
 }
 
 .footer-contacts {
   width: 310px;
-  background-color: red;
+  outline: 1px solid black;
   float: left;
   margin-right: 90px;
 }
 
 .footer-social {
   width: 140px;
-  background-color: red;
+  outline: 1px solid black;
   float: left;
 }
 
 .footer-copyright {
   width: 140px;
-  background-color: red;
+  outline: 1px solid black;
   float: right;
 }
