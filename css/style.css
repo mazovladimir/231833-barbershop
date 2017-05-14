@@ -12,89 +12,120 @@ h1 {
   font-weight: bold;
 }
 
-.clearfix {
+h2 {
+  font-size: 14px;
+}
+
+.clearfix::after {
   content: "";
-  clear: both;
   display: table;
+  clear: both;
 }
 
-div.container {
-  min-height: 70px;
+.main-header {
+  width: 1200px;
+  min-height: 72px;
+  background-color: black;
   margin: 0 auto;
-  width: 940px;
-  background-color: green;
 }
 
-nav.main-navigation {
+.main-navigation {
   float: left;
   width: 780px;
 }
 
-nav.main-navigation li {
+.main-header img {
+  float: left;
+}
+
+.main-navigation li {
   display: inline-block;
   vertical-align: top;
 }
 
-div.user-block {
+.user-block {
   float: right;
   width: 140px;
 }
 
-main.container {
-  width: 940px;
+.main-container {
+  width: 1200px;
+  min-height: 913px;
+  background-color: blue;
   margin: 0 auto;
+}
+
+.container-center {
+  width: 940px;
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .filter {
   width: 220px;
-  min-height: 600px;
+  min-height: 580px;
   background-color: red;
   float: left;
 }
 
 .gallery {
   width: 700px;
-  background-color: grey;
-  float: right;
   min-height: 600px;
+  background-color: red;
+  float: right;
 }
 
 .gallery .block {
   display: inline-block;
   vertical-align: top;
-  width: 230px;
-  height: 290px;
-  background-color: yellow;
+  width: 220px;
+  min-height: 290px;
+  background-color: grey;
+}
+
+.pagination {
+  clear: both;
+  width: 300px;
+  background-color: red;
 }
 
 .pagination li {
   display: inline-block;
+  vertical-align: top;
+}
+
+
+.main-footer {
+  width: 1200px;
+  height: 189px;
+  background-color: black;
+  margin: 0 auto;
 }
 
 .footer-container {
   width: 940px;
-  min-height: 190px;
-  background-color: green;
-  margin: 0 auto;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 65px;
 }
 
 .footer-contacts {
-  width: 320px;
-  float: left;
+  width: 310px;
   background-color: red;
-  margin-right: 60px;
+  float: left;
+  margin-right: 90px;
 }
 
 .footer-social {
-  width: 180px;
-  float: left;
+  width: 140px;
   background-color: red;
+  float: left;
 }
 
 .footer-copyright {
-  width: 160px;
-  float: right;
+  width: 140px;
   background-color: red;
+  float: right;
 }
