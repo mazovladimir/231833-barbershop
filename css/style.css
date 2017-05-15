@@ -39,7 +39,8 @@ h2 {
 
 .main-navigation {
   float: left;
-  width: 780px;
+  width: 700px;
+  outline: 1px solid green;
 }
 
 .main-header img {
@@ -53,7 +54,8 @@ h2 {
 
 .user-block {
   float: right;
-  width: 140px;
+  width: 100px;
+  outline: 1px solid green;
 }
 
 .main-container {
@@ -65,7 +67,7 @@ h2 {
 }
 
 .container-center {
-  width: 940px;	
+  width: 940px; 
   min-height: 914px;
   outline: 3px solid blue;
 }
@@ -107,7 +109,37 @@ h2 {
   width: 220px;
   min-height: 290px;
   outline: 1px solid black;
+  margin: 0;
 }
+
+.gallery-item {
+  outline: 3px solid red;
+  font-size: 0px;
+  width: 460px;
+  min-height: 676px;
+  float: left;
+}
+
+.right-side {
+  outline: 3px solid yellow;
+  float: right;
+  width: 400px;
+  min-height: 600px;
+}
+
+.gallery-item .block {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.gallery-item .block:nth-child(1) {
+  margin-left: -20px;
+}
+
+
+
+
 
 .pagination {
   clear: both;
