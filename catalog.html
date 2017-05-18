@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
+	<link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header outline">
-      <div class="header-container clearfix outline">
+      <div class="container clearfix outline">
         <img src="img/logo.png" width="111" height="24" alt="main-pic">
         <nav class="main-navigation outline">
           <ul>
@@ -34,156 +35,154 @@
       </div>
     </header>
     <main class="main-container outline">
-      <div class="container-center outline">
-      <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
-      <div class="breadcrumb outline">
-        <ul>
-          <li><a href="#">ГЛАВНАЯ</a></li>
-          <li><a href="#">МАГАЗИН</a></li>
-          <li><a href="#">СРЕДСТВА ДЛЯ УХОДА</a></li>
-        </ul>
-      </div>
-      <div class="container-shop outline">
-        <div class="filter outline">
-          <form>
-            <fieldset>
-              <legend>ПРОИЗВОДИТЕЛИ</legend>
-              <input type="checkbox" name="manufacturer" id="baxter" checked>
-              <label for="baxter">BAXTER OF CALIFORNIA</label><br>
-              <input type="checkbox" name="manufacturer" id="natty">
-              <label for="natty">MR NATTY</label><br>
-              <input type="checkbox" name="manufacturer" id="suavecito" checked>
-              <label for="suavecito">SUAVECITO</label><br>
-              <input type="checkbox" name="manufacturer" id="malin_goetz">
-              <label for="malin_goetz">MALIN+GOETZ</label><br>
-              <input type="checkbox" name="manufacturer" id="murray">
-              <label for="murray">MURRAY'S</label><br>
-              <input type="checkbox" name="manufacturer" id="american_crew" checked>
-              <label for="american_crew">AMERICAN CREW</label><br>
-            </fieldset>
-            <fieldset>
-              <legend>ГРУППЫ ТОВАРОВ</legend>
-                <input type="radio" name="goods" value="item-one"> БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ<br>
-                <input type="radio" name="goods" value="item-two" checked> СРЕДСТВА ДЛЯ УХОДА<br>
-                <input type="radio" name="goods" value="item-three"> АКСЕССУАРЫ
-            </fieldset>
-            <button class="show-item" type="submit">Показать</button>
-          </form>
-        </div>
-        <div class="gallery outline">
-          <div class="pic1 block">
-            <figure>
-              <img src="img/pic1.jpg" width="220" height="165" alt="pic1">
-            </figure>
-            <a>
-              <p class="pic1-description">Набор для путешествий</p> 
-              <h2 class="pic1-name">"BAXTER OF CALIFORNIA"</h2>
-            </a>
-            <div class="buy">
-              <span class="price">2900 руб</span>
-              <button class="pic-one" type="submit">КУПИТЬ</button>
-            </div>
-          </div>
-          <div class="pic2 block">
-            <figure>
-              <img src="img/pic2.jpg" width="220" height="165" alt="pic2">
-            </figure>
-            <a>
-              <p class="pic2-description">Увлажняющий кондиционер</p> 
-              <h2 class="pic2-name">"BAXTER OF CALIFORNIA"</h2>
-            </a>
-            <div class="buy">
-              <span class="price">750 руб</span>
-              <button class="pic-two" type="submit">КУПИТЬ</button>
-            </div>
-          </div>
-          <div class="pic3 block">
-            <figure>
-              <img src="img/pic3.jpg" width="220" height="165" alt="pic3">
-            </figure>
-            <a>
-              <p class="pic3-description">Гель для волос</p> 
-              <h2 class="pic3-name">"SUAVECITO"</h2>
-            </a>
-            <div class="buy">
-              <span class="price">290 руб</span>
-              <button class="pic-three" type="submit">КУПИТЬ</button>
-            </div>
-          </div>
-          <div class="pic4 block">
-            <figure>
-              <img src="img/pic4.jpg" width="220" height="165" alt="pic4">
-            </figure>
-            <a>
-              <p class="pic4-description">Глина для укладки волос</p> 
-              <h2 class="pic4-name">"AMERICAN CREW"</h2>
-            </a>
-            <div class="buy">
-              <span class="price">500 руб</span>
-              <button class="pic-four" type="submit">КУПИТЬ</button>
-            </div>
-          </div>
-          <div class="pic5 block">
-            <figure>
-              <img src="img/pic5.jpg" width="220" height="165" alt="pic5">
-            </figure>
-            <a>
-              <p class="pic5-description">Гель для волос</p> 
-              <h2 class="pic5-name">"AMERICAN CREW"</h2>
-            </a>
-            <div class="buy">
-              <span class="price">300 руб</span>
-              <button class="pic-five" type="submit">КУПИТЬ</button>
-            </div>
-          </div>
-          <div class="pic6 block">
-            <figure>
-              <img src="img/pic6.jpg" width="220" height="165" alt="pic6">
-            </figure>
-            <a>
-              <p class="pic6-description">Набор для бритья</p> 
-              <h2 class="pic6-name">"BAXTER OF CALIFORNIA"</h2>
-            </a>
-            <div class="buy">
-              <span class="price">3900 руб</span>
-              <button class="pic-six" type="submit">КУПИТЬ</button>
-            </div>
-          </div>
-        </div>
-        <div class="pagination outline">
+      <div class="container clearfix outline">
+        <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
+        <div class="breadcrumb outline">
           <ul>
-            <li><a class="page1" href="#">1</a></li>
-            <li><a class="page2" href="#">2</a></li>
-            <li><a class="page3" href="#">3</a></li>
-            <li><a class="page4" href="#">4</a></li>
+            <li><a href="#">ГЛАВНАЯ</a></li>
+            <li><a href="#">МАГАЗИН</a></li>
+            <li><a href="#">СРЕДСТВА ДЛЯ УХОДА</a></li>
           </ul>
         </div>
-      </div>
-      </div>
-    </main>
-    <footer>
-      <div class="main-footer outline">
-        <div class="footer-container clearfix outline">
-          <div class="footer-contacts outline">
-            БАРБЕРШОП "БОРОДИНСКИЙ"<br>
-            АДРЕС:Г.САНКТ-ПЕТЕРБУРГ,УЛ.Б.КОНЮШЕННАЯ,Д.19/8<br>
-            КАК НАС НАЙТИ?<br>
-            ТЕЛЕФОН:<a href="tel:84956660266">+7(495)666-02-66</a>
+        <div class="container-shop outline">
+          <div class="filter outline">
+            <form>
+              <fieldset>
+                <legend>ПРОИЗВОДИТЕЛИ</legend>
+                <input type="checkbox" name="manufacturer" id="baxter" checked>
+                <label for="baxter">BAXTER OF CALIFORNIA</label><br>
+                <input type="checkbox" name="manufacturer" id="natty">
+                <label for="natty">MR NATTY</label><br>
+                <input type="checkbox" name="manufacturer" id="suavecito" checked>
+                <label for="suavecito">SUAVECITO</label><br>
+                <input type="checkbox" name="manufacturer" id="malin_goetz">
+                <label for="malin_goetz">MALIN+GOETZ</label><br>
+                <input type="checkbox" name="manufacturer" id="murray">
+                <label for="murray">MURRAY'S</label><br>
+                <input type="checkbox" name="manufacturer" id="american_crew" checked>
+                <label for="american_crew">AMERICAN CREW</label><br>
+              </fieldset>
+              <fieldset>
+                <legend>ГРУППЫ ТОВАРОВ</legend>
+                  <input type="radio" name="goods" value="item-one"> БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ<br>
+                  <input type="radio" name="goods" value="item-two" checked> СРЕДСТВА ДЛЯ УХОДА<br>
+                  <input type="radio" name="goods" value="item-three"> АКСЕССУАРЫ
+              </fieldset>
+              <button class="show-item" type="submit">Показать</button>
+            </form>
           </div>
-          <div class="footer-social outline">
-            ДАВАЙТЕ ДРУЖИТЬ!
+          <div class="gallery outline">
+            <div class="pic1 block">
+              <figure>
+                <img src="img/pic1.jpg" width="220" height="165" alt="pic1">
+              </figure>
+              <a>
+                <p class="pic1-description">Набор для путешествий</p> 
+                <h2 class="pic1-name">"BAXTER OF CALIFORNIA"</h2>
+              </a>
+              <div class="buy">
+                <span class="price">2900 руб</span>
+                <button class="pic-one" type="submit">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="pic2 block">
+              <figure>
+                <img src="img/pic2.jpg" width="220" height="165" alt="pic2">
+              </figure>
+              <a>
+                <p class="pic2-description">Увлажняющий кондиционер</p> 
+                <h2 class="pic2-name">"BAXTER OF CALIFORNIA"</h2>
+              </a>
+              <div class="buy">
+                <span class="price">750 руб</span>
+                <button class="pic-two" type="submit">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="pic3 block">
+              <figure>
+                <img src="img/pic3.jpg" width="220" height="165" alt="pic3">
+              </figure>
+              <a>
+                <p class="pic3-description">Гель для волос</p> 
+                <h2 class="pic3-name">"SUAVECITO"</h2>
+              </a>
+              <div class="buy">
+                <span class="price">290 руб</span>
+                <button class="pic-three" type="submit">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="pic4 block">
+              <figure>
+                <img src="img/pic4.jpg" width="220" height="165" alt="pic4">
+              </figure>
+              <a>
+                <p class="pic4-description">Глина для укладки волос</p> 
+                <h2 class="pic4-name">"AMERICAN CREW"</h2>
+              </a>
+              <div class="buy">
+                <span class="price">500 руб</span>
+                <button class="pic-four" type="submit">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="pic5 block">
+              <figure>
+                <img src="img/pic5.jpg" width="220" height="165" alt="pic5">
+              </figure>
+              <a>
+                <p class="pic5-description">Гель для волос</p> 
+                <h2 class="pic5-name">"AMERICAN CREW"</h2>
+              </a>
+              <div class="buy">
+                <span class="price">300 руб</span>
+                <button class="pic-five" type="submit">КУПИТЬ</button>
+              </div>
+            </div>
+            <div class="pic6 block">
+              <figure>
+                <img src="img/pic6.jpg" width="220" height="165" alt="pic6">
+              </figure>
+              <a>
+                <p class="pic6-description">Набор для бритья</p> 
+                <h2 class="pic6-name">"BAXTER OF CALIFORNIA"</h2>
+              </a>
+              <div class="buy">
+                <span class="price">3900 руб</span>
+                <button class="pic-six" type="submit">КУПИТЬ</button>
+              </div>
+            </div>
+          </div>
+          <div class="pagination outline">
             <ul>
-              <li><a href="#"><span class="vkontakte">vkontakte</span></a></li>
-              <li><a href="#"><span class="facebook">facebook</span></a></li>
-              <li><a href="#"><span class="instagram">instagram</span></a></li>
+              <li><a class="page1" href="#">1</a></li>
+              <li><a class="page2" href="#">2</a></li>
+              <li><a class="page3" href="#">3</a></li>
+              <li><a class="page4" href="#">4</a></li>
             </ul>
-          </div>
-          <div class="footer-copyright outline">
-              РАЗРАБОТАНО:<br>
-              <a href="#"><span class="about">about</span></a>
           </div>
         </div>
       </div>
+    </main>
+    <footer class="main-footer outline">
+      <div class="container clearfix outline">
+        <div class="footer-contacts outline">
+          БАРБЕРШОП "БОРОДИНСКИЙ"<br>
+          АДРЕС:Г.САНКТ-ПЕТЕРБУРГ,УЛ.Б.КОНЮШЕННАЯ,Д.19/8<br>
+          КАК НАС НАЙТИ?<br>
+          ТЕЛЕФОН:<a href="tel:84956660266">+7(495)666-02-66</a>
+         </div>
+         <div class="footer-social outline">
+           ДАВАЙТЕ ДРУЖИТЬ!
+           <ul>
+             <li><a href="#"><span class="vkontakte">vkontakte</span></a></li>
+             <li><a href="#"><span class="facebook">facebook</span></a></li>
+             <li><a href="#"><span class="instagram">instagram</span></a></li>
+           </ul>
+         </div>
+         <div class="footer-copyright outline">
+             РАЗРАБОТАНО:<br>
+             <a href="#"><span class="about">about</span></a>
+         </div>
+       </div>
     </footer>
   </body>
 </html>

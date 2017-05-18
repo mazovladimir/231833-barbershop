@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   line-height: 24px;
   font-size: 14px;
@@ -7,9 +13,9 @@ body {
 }
 
 h1 {
-  line-height: 42px;
   font-size: 30px;
   font-weight: bold;
+  padding-top: 65px;
 }
 
 h2 {
@@ -23,13 +29,10 @@ h2 {
 }
 
 .main-header {
-  width: 1200px;
-  min-height: 72px;
   outline: 3px solid green;
-  margin: 0 auto;
 }
 
-.header-container {
+.container {
   width: 940px;
   min-height: 72px;
   outline: 3px solid red;
@@ -59,34 +62,12 @@ h2 {
 }
 
 .main-container {
-  width: 1200px;
-  min-height: 913px;
   outline: 3px solid green;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container-center {
-  width: 940px; 
-  min-height: 914px;
-  outline: 3px solid blue;
-}
-
-.container-center h1 {
-  padding-top: 65px;
 }
 
 .breadcrumb li {
   display: inline-block;
   vertical-align: top;
-}
-
-.container-center {
-  width: 940px;
-  min-height: 914px;
-  outline: 3px solid red;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .filter {
@@ -137,14 +118,6 @@ h2 {
   margin: 0;
 }
 
-.gallery-item .block:nth-child(1) {
-  margin-left: -20px;
-}
-
-
-
-
-
 .pagination {
   clear: both;
   width: 300px;
@@ -156,20 +129,9 @@ h2 {
   vertical-align: top;
 }
 
-
 .main-footer {
-  width: 1200px;
-  height: 189px;
+  clear: both;
   outline: 3px solid green;
-  margin: 0 auto;
-  padding-top: 65px;
-}
-
-.footer-container {
-  width: 940px;
-  outline: 3px solid red;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .footer-contacts {

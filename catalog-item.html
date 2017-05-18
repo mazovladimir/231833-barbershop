@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
+	<link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header">
-      <div class="header-container clearfix">
+    <header class="main-header outline">
+      <div class="container clearfix outline">
         <img src="img/logo.png" width="111" height="24" alt="main-pic">
-        <nav class="main-navigation">
+        <nav class="main-navigation outline">
           <ul>
             <li>
               <a href="#">ИНФОРМАЦИЯ</a>
@@ -28,23 +29,22 @@
             </li>
           </ul>
         </nav>
-        <div class="user-block">
+        <div class="user-block outline">
           <a class="login" href="#">ВХОД</a>
         </div>
       </div>
     </header>
-    <main class="main-container">
-      <div class="container-center outline">
-      <div class="container-shop">
+    <main class="main-container clearfix outline">
+      <div class="container outline">
         <h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</h1>
-        <nav class="breadcrumb">
+        <div class="breadcrumb">
           <ul>
             <li><a href="#">ГЛАВНАЯ</a></li>
             <li><a href="#">МАГАЗИН</a></li>
             <li><a href="#">СРЕДСТВА ДЛЯ УХОДА</a></li>
             <li><a href="#">НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</a></li>
           </ul>
-        </nav>
+        </div>
         <div class="gallery-item outline">
           <figure>
             <img src="img/item3.jpg" width="460" height="498" alt="main-pic">
@@ -81,31 +81,28 @@
           </div>
         </div>
       </div>
-      </div>
     </main>
-    <footer>
-      <div class="main-footer">
-        <div class="footer-container clearfix">
-          <div class="footer-contacts">
-            БАРБЕРШОП "БОРОДИНСКИЙ"<br>
-            АДРЕС:Г.САНКТ-ПЕТЕРБУРГ,УЛ.Б.КОНЮШЕННАЯ,Д.19/8<br>
-            КАК НАС НАЙТИ?<br>
-            ТЕЛЕФОН:<a href="tel:84956660266">+7(495)666-02-66</a>
-          </div>
-          <div class="footer-social">
-            ДАВАЙТЕ ДРУЖИТЬ!
-            <ul>
-              <li><a href="#"><span class="vkontakte">vkontakte</span></a></li>
-              <li><a href="#"><span class="facebook">facebook</span></a></li>
-              <li><a href="#"><span class="instagram">instagram</span></a></li>
-            </ul>
-          </div>
-          <div class="footer-copyright">
-              РАЗРАБОТАНО:<br>
-              <a href="#"><span class="about">about</span></a>
-          </div>
-        </div>
-      </div>
+    <footer class="main-footer outline">
+      <div class="container clearfix outline">
+        <div class="footer-contacts outline">
+          БАРБЕРШОП "БОРОДИНСКИЙ"<br>
+          АДРЕС:Г.САНКТ-ПЕТЕРБУРГ,УЛ.Б.КОНЮШЕННАЯ,Д.19/8<br>
+          КАК НАС НАЙТИ?<br>
+          ТЕЛЕФОН:<a href="tel:84956660266">+7(495)666-02-66</a>
+         </div>
+         <div class="footer-social outline">
+           ДАВАЙТЕ ДРУЖИТЬ!
+           <ul>
+             <li><a href="#"><span class="vkontakte">vkontakte</span></a></li>
+             <li><a href="#"><span class="facebook">facebook</span></a></li>
+             <li><a href="#"><span class="instagram">instagram</span></a></li>
+           </ul>
+         </div>
+         <div class="footer-copyright outline">
+             РАЗРАБОТАНО:<br>
+             <a href="#"><span class="about">about</span></a>
+         </div>
+       </div>
     </footer>
   </body>
 </html>
