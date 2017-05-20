@@ -15,7 +15,6 @@ body {
 h1 {
   font-size: 30px;
   font-weight: bold;
-  padding-top: 65px;
 }
 
 h2 {
@@ -30,11 +29,11 @@ h2 {
 
 .main-header {
   outline: 3px solid green;
+  margin-bottom: 64px;
 }
 
 .container {
   width: 940px;
-  min-height: 72px;
   outline: 3px solid red;
   margin-left: auto;
   margin-right: auto;
@@ -61,10 +60,6 @@ h2 {
   outline: 1px solid green;
 }
 
-.main-container {
-  outline: 3px solid green;
-}
-
 .breadcrumb li {
   display: inline-block;
   vertical-align: top;
@@ -72,14 +67,12 @@ h2 {
 
 .filter {
   width: 220px;
-  min-height: 580px;
   outline: 1px solid black;
   float: left;
 }
 
 .gallery {
   width: 700px;
-  min-height: 600px;
   outline: 1px solid black;
   float: right;
 }
@@ -88,7 +81,6 @@ h2 {
   display: inline-block;
   vertical-align: top;
   width: 220px;
-  min-height: 290px;
   outline: 1px solid black;
   margin: 0;
 }
@@ -97,7 +89,6 @@ h2 {
   outline: 3px solid red;
   font-size: 0px;
   width: 460px;
-  min-height: 676px;
   float: left;
 }
 
@@ -109,7 +100,6 @@ h2 {
   outline: 3px solid yellow;
   float: right;
   width: 400px;
-  min-height: 600px;
 }
 
 .gallery-item .block {
@@ -132,6 +122,7 @@ h2 {
 .main-footer {
   clear: both;
   outline: 3px solid green;
+  margin-top: 49px;
 }
 
 .footer-contacts {
