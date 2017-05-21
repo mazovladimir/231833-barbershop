@@ -28,13 +28,14 @@ h2 {
 }
 
 .main-header {
-  outline: 3px solid green;
+  outline: 1px solid green;
   margin-bottom: 64px;
+  padding: 8px;
 }
 
 .container {
   width: 940px;
-  outline: 3px solid red;
+  outline: 1px solid red;
   margin-left: auto;
   margin-right: auto;
 }
@@ -63,6 +64,7 @@ h2 {
 .breadcrumb li {
   display: inline-block;
   vertical-align: top;
+  margin-bottom: 40px;
 }
 
 .filter {
@@ -75,18 +77,26 @@ h2 {
   width: 700px;
   outline: 1px solid black;
   float: right;
+  font-size: 0px;
 }
 
 .gallery .block {
   display: inline-block;
   vertical-align: top;
   width: 220px;
-  outline: 1px solid black;
-  margin: 0;
+  font-size: 14px;
+  margin-right: 20px;
 }
 
+.gallery .block:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.gallery .block:nth-child(-n+3) {
+  margin-bottom: 20px;
+}
 .gallery-item {
-  outline: 3px solid red;
+  outline: 1px solid red;
   font-size: 0px;
   width: 460px;
   float: left;
@@ -97,7 +107,7 @@ h2 {
 }
 
 .right-side {
-  outline: 3px solid yellow;
+  outline: 1px solid yellow;
   float: right;
   width: 400px;
 }
@@ -109,20 +119,22 @@ h2 {
 }
 
 .pagination {
-  clear: both;
   width: 300px;
-  outline: 3px solid blue;
+  outline: 1px solid blue;
+  margin-top: 45px;
 }
 
 .pagination li {
   display: inline-block;
   vertical-align: top;
+  font-size: 14px;
 }
 
 .main-footer {
   clear: both;
-  outline: 3px solid green;
+  outline: 1px solid green;
   margin-top: 49px;
+  padding-top: 60px;
 }
 
 .footer-contacts {
